@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans';
+}
+
+header {
+    background: #FFF8F3;
+    height: 837px;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-position: bottom right, left;
+    background-repeat: no-repeat;
+    margin-bottom: 130px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    margin-top: 50px;
+    margin-right: 230px;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 51px;
+}
+
+.btn-primary {
+    height: 64px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    background: #FD6E0A;
+    border-radius: 5px;
+    border: none;
+    padding: 18px 35px;
+}
+
+.btn-secondary {
+    height: 64px;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    padding: 18px 24px;
+    margin-left: 30px;
+}
+
+.color-primary {
+    color: #FD6E0A;
+}
+
+header h2 {
+    font-weight: 800;
+    font-size: 45px;
+    margin-top: 51px;
+    margin-left: 226px;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    margin: 0 230px;
+}
+
+.banner-sub-title {
+    font-weight: 600;
+    font-size: 45px;
+    color: #181818;
+    margin-bottom: 5px;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 70px;
+    color: #181818;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.banner-description {
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    text-align: justify;
+}
+
+.btn {
+    margin-top: 30px;
+}
+
+/* main style */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* about me style */
+.about {
+    margin: 30px 0;
+    padding: 131px 156px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    /* text-align: center; */
+}
+
+.what-do-description {
+    color: #757575;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.main-title {
+    color: #181818;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.about-description {
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+/* table {
+    margin: 0 auto;
+}
+
+table thead th {
+    color: #757575;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+table tbody tr td {
+    color: #474747;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+} */
+/* about container design */
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info {
+    margin-left: 50px;
+}
+
+.info-title {
+    color: #757575;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.info-description {
+    color: #474747;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+}
+
+.what-do-description {
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #757575;
+}
