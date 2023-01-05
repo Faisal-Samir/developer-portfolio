@@ -256,7 +256,80 @@ table tbody tr td {
 hr {
     margin-top: 30px;
 }
-.primary{
+
+.primary {
     margin-top: 50px;
     text-align: center;
+}
+
+.contact {
+    background-color: #FFF8F3;
+    margin-top: 113px;
+}
+
+.contact-container {
+    /* padding: 30px 190px; */
+    display: flex;
+    gap: 117px;
+    justify-content: center;
+    margin-left: 230px;
+}
+
+.contact-item {
+    margin-top: 130px;
+}
+
+.contact-item input,
+textarea {
+    margin-bottom: 24px;
+    border: none;
+}
+
+.contact-item input {
+    width: 461px;
+    height: 64px;
+}
+.contact-item input::placeholder{
+    padding-top: 18px;
+    padding-left: 30px;
+}
+.contact-item textarea {
+    width: 461px;
+    height: 180px;
+    resize: none;
+}
+
+.contact-item textarea::placeholder{
+    padding-top: 18px;
+    padding-left: 30px;
+}
+
+.contact-description {
+    margin-top: 20px;
+}
+
+.contact-message {
+    resize: none;
+    width: 461px;
+    height: 180px;
+}
+.contact-title{
+    color: #181818;
+    margin-bottom: 20px;
+}
+.contact-title p .name {
+    margin-top: 28px;
+}
+.icon{
+    margin-top: 30px;
+}
+.icon img{
+    margin-right: 24px;
+}
+footer{
+    text-align: center;
+    height: 100px;
+    margin-top: 80px;
+    font-size: 2em;
+    font-weight: 700px;
 }
